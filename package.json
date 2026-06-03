@@ -1,0 +1,15 @@
+{
+  "name": "tellpoker-relay",
+  "version": "1.0.0",
+  "description": "TellPoker WebSocket relay — pure message router, no game logic",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
